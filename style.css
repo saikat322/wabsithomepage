@@ -333,3 +333,100 @@ padding: 10px;
     text-align: center;
     border-radius: 5px;
   }
+
+  @media (max-width:900px){
+ .naveber{
+    flex-direction: column;
+    padding: 15px 20px;
+    text-align: center;
+ }
+  .navigastion{
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  .body{
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .view{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    height: auto;
+  }
+  .box1, .box2, .box3, .box4 {
+    width: 45%;
+    height: auto;
+  }
+
+  .table{
+    flex-direction: column;
+    gap: 20px;
+  }
+   .course1, .course2, .course3{
+
+    width: 80%;
+    height: auto;
+   }
+
+  }
+
+  @media (max-width: 576px){
+.naveber{
+    flex-direction: column;
+    padding: 10px;
+}
+ .navigastion{
+    flex-direction: column;
+    gap: 10px;
+ }
+  .body h1 {
+    font-size: 28px;
+  }
+  .body h3 {
+    font-size: 16px;
+    padding: 5px 10px;
+
+  }
+  .body p{
+    font-size: 14px;
+  }
+   .body img {
+    max-width: 100%;
+   }
+
+   .view{
+    flex-direction: column;
+    gap: 15px;
+    height: auto;
+   }
+    .box1, .box2, .box3, .box4 {
+    width: 90%;
+    
+  }
+  .table{
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .course1, .course2 ,.course3 {
+    width: 95%;
+    height:auto ;
+  }
+  .button5 button{
+    padding: 10px 163px;
+    font-size: 14px;
+  }
+  address {
+    font-size: 22px;
+  }
+ .ditels p{
+    font-size: 16px;
+ }
+
+ 
+  
+
+}
